@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31BC28BB2068996400300B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BC28BA2068996400300B9A /* AppDelegate.m */; };
+		31BC28BE2068996400300B9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BC28BD2068996400300B9A /* ViewController.m */; };
+		31BC28C12068996400300B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BC28BF2068996400300B9A /* Main.storyboard */; };
+		31BC28C42068996400300B9A /* lxlProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31BC28C22068996400300B9A /* lxlProject.xcdatamodeld */; };
+		31BC28C62068996400300B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BC28C52068996400300B9A /* Assets.xcassets */; };
+		31BC28C92068996400300B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BC28C72068996400300B9A /* LaunchScreen.storyboard */; };
+		31BC28CC2068996400300B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BC28CB2068996400300B9A /* main.m */; };
+		31BC28DA20689A8200300B9A /* YSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BC28D920689A8200300B9A /* YSBaseViewController.m */; };
+		31DB6B18206921E600130FCB /* YSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DB6B17206921E600130FCB /* YSViewController.m */; };
+		31DB6B1B2069223900130FCB /* baseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DB6B1A2069223900130FCB /* baseView.m */; };
+		31DB6B1E2069D5F500130FCB /* YSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DB6B1D2069D5F500130FCB /* YSModel.m */; };
+		8AD694C16F853DD4BA0D97E2 /* libPods-lxlProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F5D2F52140959B8D2DC607 /* libPods-lxlProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31BC28B62068996400300B9A /* lxlProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lxlProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BC28B92068996400300B9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31BC28BA2068996400300B9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31BC28BC2068996400300B9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31BC28BD2068996400300B9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31BC28C02068996400300B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31BC28C32068996400300B9A /* lxlProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lxlProject.xcdatamodel; sourceTree = "<group>"; };
+		31BC28C52068996400300B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31BC28C82068996400300B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31BC28CA2068996400300B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BC28CB2068996400300B9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31BC28D620689A4F00300B9A /* lxlPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lxlPch.pch; sourceTree = "<group>"; };
+		31BC28D820689A8200300B9A /* YSBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSBaseViewController.h; sourceTree = "<group>"; };
+		31BC28D920689A8200300B9A /* YSBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSBaseViewController.m; sourceTree = "<group>"; };
+		31DB6B16206921E600130FCB /* YSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSViewController.h; sourceTree = "<group>"; };
+		31DB6B17206921E600130FCB /* YSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSViewController.m; sourceTree = "<group>"; };
+		31DB6B192069223900130FCB /* baseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseView.h; sourceTree = "<group>"; };
+		31DB6B1A2069223900130FCB /* baseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseView.m; sourceTree = "<group>"; };
+		31DB6B1C2069D5F500130FCB /* YSModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSModel.h; sourceTree = "<group>"; };
+		31DB6B1D2069D5F500130FCB /* YSModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSModel.m; sourceTree = "<group>"; };
+		3636523F9E8AC7C1C3B74AAF /* Pods-lxlProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lxlProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lxlProject/Pods-lxlProject.debug.xcconfig"; sourceTree = "<group>"; };
+		79CDED478964D64F85A87FB4 /* Pods-lxlProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lxlProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-lxlProject/Pods-lxlProject.release.xcconfig"; sourceTree = "<group>"; };
+		D8F5D2F52140959B8D2DC607 /* libPods-lxlProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lxlProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31BC28B32068996400300B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD694C16F853DD4BA0D97E2 /* libPods-lxlProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31BC28AD2068996400300B9A = {
+			isa = PBXGroup;
+			children = (
+				31BC28B82068996400300B9A /* lxlProject */,
+				31BC28B72068996400300B9A /* Products */,
+				3F8007619CDB340A1AB7DE04 /* Pods */,
+				52ADE9510E93A76FC6FD3EFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31BC28B72068996400300B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31BC28B62068996400300B9A /* lxlProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31BC28B82068996400300B9A /* lxlProject */ = {
+			isa = PBXGroup;
+			children = (
+				31BC28D4206899D300300B9A /* Resource */,
+				31BC28D3206899CC00300B9A /* AppDelegate */,
+				31BC28D2206899C300300B9A /* Class */,
+			);
+			path = lxlProject;
+			sourceTree = "<group>";
+		};
+		31BC28D2206899C300300B9A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				31BC28D720689A6200300B9A /* Controller */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		31BC28D3206899CC00300B9A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				31BC28B92068996400300B9A /* AppDelegate.h */,
+				31BC28BA2068996400300B9A /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		31BC28D4206899D300300B9A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				31BC28D620689A4F00300B9A /* lxlPch.pch */,
+				31BC28C52068996400300B9A /* Assets.xcassets */,
+				31BC28D5206899EE00300B9A /* Useless */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		31BC28D5206899EE00300B9A /* Useless */ = {
+			isa = PBXGroup;
+			children = (
+				31BC28CA2068996400300B9A /* Info.plist */,
+				31BC28BC2068996400300B9A /* ViewController.h */,
+				31BC28BD2068996400300B9A /* ViewController.m */,
+				31BC28BF2068996400300B9A /* Main.storyboard */,
+				31BC28C72068996400300B9A /* LaunchScreen.storyboard */,
+				31BC28CB2068996400300B9A /* main.m */,
+				31BC28C22068996400300B9A /* lxlProject.xcdatamodeld */,
+			);
+			path = Useless;
+			sourceTree = "<group>";
+		};
+		31BC28D720689A6200300B9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31BC28D820689A8200300B9A /* YSBaseViewController.h */,
+				31BC28D920689A8200300B9A /* YSBaseViewController.m */,
+				31DB6B16206921E600130FCB /* YSViewController.h */,
+				31DB6B17206921E600130FCB /* YSViewController.m */,
+				31DB6B192069223900130FCB /* baseView.h */,
+				31DB6B1A2069223900130FCB /* baseView.m */,
+				31DB6B1C2069D5F500130FCB /* YSModel.h */,
+				31DB6B1D2069D5F500130FCB /* YSModel.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F8007619CDB340A1AB7DE04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3636523F9E8AC7C1C3B74AAF /* Pods-lxlProject.debug.xcconfig */,
+				79CDED478964D64F85A87FB4 /* Pods-lxlProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52ADE9510E93A76FC6FD3EFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8F5D2F52140959B8D2DC607 /* libPods-lxlProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31BC28B52068996400300B9A /* lxlProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BC28CF2068996400300B9A /* Build configuration list for PBXNativeTarget "lxlProject" */;
+			buildPhases = (
+				75C4FFCB62F6A4F5987FC02E /* [CP] Check Pods Manifest.lock */,
+				31BC28B22068996400300B9A /* Sources */,
+				31BC28B32068996400300B9A /* Frameworks */,
+				31BC28B42068996400300B9A /* Resources */,
+				46FB601F1D0FE56986B1038A /* [CP] Embed Pods Frameworks */,
+				3B60302C3FD86386F3D6A0D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lxlProject;
+			productName = lxlProject;
+			productReference = 31BC28B62068996400300B9A /* lxlProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31BC28AE2068996400300B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "李晓龙";
+				TargetAttributes = {
+					31BC28B52068996400300B9A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 31BC28B12068996400300B9A /* Build configuration list for PBXProject "lxlProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31BC28AD2068996400300B9A;
+			productRefGroup = 31BC28B72068996400300B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31BC28B52068996400300B9A /* lxlProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31BC28B42068996400300B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BC28C92068996400300B9A /* LaunchScreen.storyboard in Resources */,
+				31BC28C62068996400300B9A /* Assets.xcassets in Resources */,
+				31BC28C12068996400300B9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B60302C3FD86386F3D6A0D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lxlProject/Pods-lxlProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46FB601F1D0FE56986B1038A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lxlProject/Pods-lxlProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75C4FFCB62F6A4F5987FC02E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lxlProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31BC28B22068996400300B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DB6B18206921E600130FCB /* YSViewController.m in Sources */,
+				31DB6B1E2069D5F500130FCB /* YSModel.m in Sources */,
+				31BC28BE2068996400300B9A /* ViewController.m in Sources */,
+				31BC28C42068996400300B9A /* lxlProject.xcdatamodeld in Sources */,
+				31BC28CC2068996400300B9A /* main.m in Sources */,
+				31BC28BB2068996400300B9A /* AppDelegate.m in Sources */,
+				31DB6B1B2069223900130FCB /* baseView.m in Sources */,
+				31BC28DA20689A8200300B9A /* YSBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31BC28BF2068996400300B9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31BC28C02068996400300B9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31BC28C72068996400300B9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31BC28C82068996400300B9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31BC28CD2068996400300B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31BC28CE2068996400300B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31BC28D02068996400300B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3636523F9E8AC7C1C3B74AAF /* Pods-lxlProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = lxlProject/Resource/lxlPch.pch;
+				INFOPLIST_FILE = lxlProject/Resource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.10000.lxlProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31BC28D12068996400300B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CDED478964D64F85A87FB4 /* Pods-lxlProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = lxlProject/Resource/lxlPch.pch;
+				INFOPLIST_FILE = lxlProject/Resource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.10000.lxlProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31BC28B12068996400300B9A /* Build configuration list for PBXProject "lxlProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BC28CD2068996400300B9A /* Debug */,
+				31BC28CE2068996400300B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BC28CF2068996400300B9A /* Build configuration list for PBXNativeTarget "lxlProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BC28D02068996400300B9A /* Debug */,
+				31BC28D12068996400300B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31BC28C22068996400300B9A /* lxlProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31BC28C32068996400300B9A /* lxlProject.xcdatamodel */,
+			);
+			currentVersion = 31BC28C32068996400300B9A /* lxlProject.xcdatamodel */;
+			path = lxlProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31BC28AE2068996400300B9A /* Project object */;
+}

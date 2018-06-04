@@ -1,0 +1,24 @@
+PODS:
+  - NerdyUI (1.2.1):
+    - NerdyUI/Chainable (= 1.2.1)
+    - NerdyUI/Private (= 1.2.1)
+    - NerdyUI/Public (= 1.2.1)
+  - NerdyUI/Chainable (1.2.1):
+    - NerdyUI/Private
+    - NerdyUI/Public
+  - NerdyUI/Private (1.2.1)
+  - NerdyUI/Public (1.2.1):
+    - NerdyUI/Private
+  - ReactiveObjC (3.1.0)
+
+DEPENDENCIES:
+  - NerdyUI
+  - ReactiveObjC
+
+SPEC CHECKSUMS:
+  NerdyUI: ae4506046b544a5cdc0873a58c1ece61b29631d0
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+
+PODFILE CHECKSUM: 88a07189d118d33d8a66f81ba6608beb0f23f0a9
+
+COCOAPODS: 1.4.0
